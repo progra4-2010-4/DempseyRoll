@@ -1,0 +1,11 @@
+body{ 
+    font-family: Calibri, monospace;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+a{
+    color: #06F;
+    text-decoration: none;
+}
+
