@@ -3,7 +3,7 @@ class CreateNotes < ActiveRecord::Migration
     create_table :notes do |t|
       t.text :content
       t.string :email
-      t.DateTime :delivery
+      t.datetime :delivery
 
       t.timestamps
     end

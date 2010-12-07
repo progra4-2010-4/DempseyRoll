@@ -1,2 +1,10 @@
 <h1>Notes#new</h1>
-<p>Find me in app/views/notes/new.html.erb</p>
+<%=semantic_form_for @note do |f|%>
+  <%=f.inputs do %>
+     <%=f.input :content%>
+     <%=f.input :email%>
+     <%=f.input :delivery%>
+  <%end%>
+  <%=f.buttons%>
+<%end%>
+

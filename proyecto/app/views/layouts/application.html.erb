@@ -12,7 +12,10 @@
       <nav>
         <a href='/notes/new'>New Reminder</a>
         </nav>
-      </header>
+</header>
+<p class="notice"><%= flash[:notice] %></p>
+<p class="error"><%= flash[:error] %></p>
+
 <%= yield %>
 
 </body>

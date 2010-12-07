@@ -1,8 +1,5 @@
 Proyecto::Application.routes.draw do
-  get "notes/create"
-
-  get "notes/new"
-
+  resources :notes, :only => [:new, :create]
   root :to => "Notes#new"
   # The priority is based upon order of creation:
   # first created -> highest priority.
