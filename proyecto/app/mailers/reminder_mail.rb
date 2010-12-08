@@ -1,12 +1,12 @@
 class ReminderMail < ActionMailer::Base
-  default :from => "from@example.com"
+  default :from => "plz.remind.me@gmail.com"
 
-	def new_remind.me_email (note)
+	def new_remind_me_email(note)
 		@note = note
 		@content = note.content
 		@email = note.email
 		@delivery = note.delivery
 
-		mail :to => @email, :subject => "Reminder!!" , #:body => @content
+		mail(:to => @email, :subject => "Reminder!!")
 	end
 end
