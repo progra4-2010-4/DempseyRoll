@@ -1,5 +1,5 @@
 class ReminderMail < ActionMailer::Base
-  default :from => "plz.remind.me@gmail.com"
+  default :from => "remind.me.plox@gmail.com"
 
 	def new_remind_me_email(note)
 		@note = note
