@@ -31,6 +31,7 @@ GEM
     arel (1.0.1)
       activesupport (~> 3.0.0)
     builder (2.1.2)
+    chronic (0.3.0)
     erubis (2.6.6)
       abstract (>= 1.0.0)
     formtastic (1.1.0)
@@ -76,6 +77,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  chronic
   formtastic (~> 1.1.0)
   rails (= 3.0.1)
   rufus-scheduler
