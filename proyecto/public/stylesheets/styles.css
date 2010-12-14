@@ -1,11 +1,29 @@
 body {
-width: 800px;
-margin: 0 auto;
-font-size: 12px;
-font-family: sans-serif; 
+  width: 800px;
+  margin: 0 auto;
+  font-family: "Verdana", Geneva, sans-Serif;
+  background-color: #DDE;
+  text-align: justify;
+  font-size: 12px;
 }
 
-h1 { margin: 15px 0; font-size: 22px; font-weight: normal; }
+em {
+  background-color: #f9dd53;
+}
+
+h1 {
+  color: #43565D;
+}
+
+h2 {
+  color: #518554;
+}
+
+
+a:link, a:visited, a:hover, a:active { color: #014933; }
+a { -moz-outline: none; }
+
+h1 { margin: 15px 0; font-size: 48px; font-weight: normal; }
 h2 { font-size: 22px; margin: 15px 0; font-weight: normal;}
 h3 { font-size: 18px; margin: 10px 0; font-weight: normal;}
 h4 { font-size: 16px; margin: 10px 0; font-weight: normal;}

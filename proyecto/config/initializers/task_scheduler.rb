@@ -4,7 +4,7 @@ require 'chronic'
 
 scheduler = Rufus::Scheduler.start_new
 
-scheduler.every '5m' do
+scheduler.every '1m' do
 	Note.all.each do |n|
 		timex = Time.now - Chronic.parse(n.delivery.to_s)
 		puts timex
